@@ -11,6 +11,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 @RestController
+@RequestMapping("/api")
 public class GithubController {
 
     @RequestMapping("/profile")
